@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemrograman Web Pertemuan 2</title>
+    <style>
+        body {
+            background-color: yellow;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            background-color: green;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .header h2 {
+            margin: 0;
+            font-size: 1.5em;
+            color: #FFD700; /* Warna kuning untuk subjudul */
+        }
+        .logo {
+            width: 100px; /* Sesuaikan ukuran logo */
+            height: auto;
+            margin-right: 20px; /* Jarak antara logo dan teks */
+        }
+        .container {
+            border: 1px solid black;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .highlight {
+            background-color: hsl(162, 72%, 40%); /* Warna kuning untuk highlight */
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+    <img src="logo ubhara.jpg" alt="Logo Universitas" class="logo"> <!-- Tambahkan Logo -->
+    <div>
+        <h1>SELAMAT DATANG DI FASILKOM</h1>
+        <h2>PEMOGRAMAN WEB PERTEMUAN 2</h2>
+    </div>
+</div>
+
+<div class="container">
+    <h2 class="highlight">HyperText Markup Language (HTML)</h2>
+    <p>HyperText Markup Language adalah bahasa markup standar yang digunakan untuk membuat dan menyusun struktur konten di suatu website. HTML memberikan struktur dasar untuk halaman web dengan menggunakan elemen-elemen yang dicirikan dengan simbol tag <code>&lt;&gt;</code>. Setiap tag elemen HTML dapat memiliki atribut yang memberikan informasi tambahan tentang elemen tersebut. Dengan menggunkan HTML. kita dapat menyisipkan macam bentuk data seperti data gambar, suara, file, dan video seperti dibawah ini: .</p>
+    
+    <h2 class="highlight">PENTINGNYA BELAJAR HTML</h2>
+    <ul>
+        <li>Dasar Pengembangan Web: HTML adalah titik awal untuk membuat situs web.</li>
+        <li>Bahasa Universal Web: HTML adalah bahasa markup standar yang digunakan untuk membuat halaman web.</li>
+        <li>Mudah Dipelajari: HTML sangat mudah dibandingkan dengan bahasa pemrograman lainnya.</li>
+    </ul>
+</div>
+
+<div style="text-align: center;">
+    <h2>LIVE STREAMING 24 JAM KOMPAS TV</h2>
+    <!-- Link YouTube yang diperbarui -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/DOOrIxw5xOw?si=pCSbqO8qQTVJ5i3g" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<div class="nav">
+    <table>
+    <a href="#materi-html">MATERI HTML</a> |
+    <a href="#profil-upera">PROFIL UPERA</a> |
+    <a href="#portofolio">PORTOFOLIO</a>
+</div>
+
+</div>
+
+<footer>
+    <p>&copy; 2025 All rights reserved by Muhammad Yasir</p>
+</footer>
+
+</body>
+</html>

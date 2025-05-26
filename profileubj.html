@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 2 - Fasilkom Ubharajaya</title>
+    <style>
+        body {
+            background-color: yellow;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            display: flex; /* Menggunakan flexbox untuk tata letak horizontal */
+            justify-content: center; /* Menjaga elemen tetap berada di tengah */
+            align-items: center; /* Menjaga elemen berada di tengah secara vertikal */
+            font-size: 28px;
+            font-weight: bold;
+            background-color: green;
+            color: white;
+            padding: 20px;
+        }
+        .logo {
+            width: 60px; /* Ukuran logo */
+            margin-right: 20px; /* Jarak antara logo dan teks */
+        }
+        .header span {
+            color: lightgreen;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .title {
+            font-size: 22px;
+            font-weight: bold;
+            color: blue;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .visi-misi {
+            background-color: lightblue;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        .visi-misi h3 {
+            font-size: 20px;
+            margin-top: 0;
+        }
+        .video-container {
+            text-align: center;
+            margin-top: 50px;
+        }
+        iframe {
+            max-width: 100%;
+            height: 315px; /* Ukuran tinggi iframe yang lebih proporsional */
+            border-radius: 8px;
+        }
+        .footer {
+            text-align: center;
+            background-color: green;
+            color: white;
+            padding: 15px;
+            margin-top: 30px;
+        }
+        .footer a {
+            margin: 10px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+            .header {
+                font-size: 24px;
+            }
+            .title {
+                font-size: 18px;
+            }
+            iframe {
+                height: 250px; /* Sesuaikan tinggi video untuk perangkat kecil */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="logo ubhara.jpg" alt="Logo Universitas" class="logo"> <!-- Logo akan berada di sebelah kiri teks -->
+        <div>
+            SELAMAT DATANG DI FASILKOM <br>
+            <span>PEMROGRAMAN WEB PERTEMUAN 2</span>
+        </div>
+    </div>
+
+    <div class="container">
+        <p class="title">FASILKOM UBHARA JAYA</p>
+        <p>Fakultas Ilmu Komputer (Fasilkom) Universitas Bhayangkara Jakarta Raya (Ubharajaya) adalah salah satu fakultas yang menawarkan program pendidikan tinggi di bidang ilmu komputer dan teknologi informasi.</p>
+        
+        <div class="visi-misi">
+            <h3>Visi dan Misi</h3>
+            <p><b>Visi:</b> Menjadi fakultas terkemuka dalam bidang ilmu komputer yang berorientasi pada pengembangan teknologi dan penelitian yang inovatif.</p>
+            <p><b>Misi:</b> Menyelenggarakan pendidikan berkualitas tinggi di bidang ilmu komputer, mengembangkan penelitian yang relevan dengan kebutuhan masyarakat dan industri, serta meningkatkan kerja sama dengan berbagai pihak baik di dalam maupun luar negeri.</p>
+        </div>
+
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/LnKTz7hZ_20?start=31" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="footer">
+        <a href="#">MATERI HTML</a> |
+        <a href="#">PROFIL UBHARA</a> |
+        <a href="#">PORTOFOLIO</a>
+        <p>© 2025 All rights reserved by Muhammad Yasir</p>
+    </div>
+</body>
+</html>
